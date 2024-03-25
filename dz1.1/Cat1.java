@@ -1,11 +1,11 @@
-public class Cat{
+public class Cat1{
     //приватные поля для хранения данных кота и ссылка на объект оунер
     private String name;
     private int age;
-    private Owner owner;
+    private Owner1 owner;
     
     //конструктор кота
-    public Cat(String name, int age){
+    public Cat1(String name, int age){
         this.name = name;
         this.age = age;
    }
@@ -27,11 +27,11 @@ public class Cat{
     this.age = age;
    }
 
-   public Owner getOwner(){
+   public Owner1 getOwner(){
     return owner;
    }
 
-   public void setOwner(Owner owner){
+   public void setOwner(Owner1 owner){
     this.owner = owner;
    }
     

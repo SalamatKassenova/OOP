@@ -3,7 +3,7 @@ public class Rectangle {
     private double height;
 
     //конструктор без параметров
-    public Rectungle(){
+    public Rectangle(){
         this.width = 1.0;
         this.height = 1.0;
     }

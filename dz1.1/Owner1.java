@@ -1,7 +1,7 @@
-public class Owner {
+public class Owner1 {
     private String name;
 
-    public Owner(String name){
+    public Owner1(String name){
         this.name = name;
     }
 
