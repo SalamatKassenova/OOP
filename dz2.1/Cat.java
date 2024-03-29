@@ -41,4 +41,8 @@ public class Cat implements Nameable, Ageable, Greetable, OwnerManageable{
         return ownerName;
     }
     
+    public int compareTo(Cat otherCat) {
+        // Сравниваем возраст текущего кота с возрастом другого кота
+        return Integer.compare(this.age, otherCat.age);
+    }
 }
