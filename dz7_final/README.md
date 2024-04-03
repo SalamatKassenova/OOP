@@ -9,7 +9,7 @@
 1. **Клонируйте репозиторий:**
 
     ```bash
-    git clone https://github.com/your_username/calculator.git
+    git clone https://github.com/SalamatKassenova/OOP/tree/main/dz7_final
     ```
 
 2. **Перейдите в директорию с файлами:**
